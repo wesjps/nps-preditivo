@@ -37,9 +37,7 @@ O foco é **entendimento do negócio, pensamento analítico e storytelling com d
 | Etapas 1 e 2: entendimento do negócio e definição da target (PDF) | [`reports/01_entendimento_negocio_e_target.pdf`](reports/01_entendimento_negocio_e_target.pdf) |
 | Tratamento e preparação dos dados | [`notebooks/01_tratamento_dados.ipynb`](notebooks/01_tratamento_dados.ipynb) |
 | Etapa 3: análise exploratória (EDA) com foco em negócio | [`notebooks/02_analise_exploratoria.ipynb`](notebooks/02_analise_exploratoria.ipynb) |
-| Apresentação para gestores (storytelling) | [`reports/apresentacao_nps_preditivo.pptx`](reports/apresentacao_nps_preditivo.pptx) |
-| Roteiro do vídeo executivo | [`reports/roteiro_video.md`](reports/roteiro_video.md) |
-| Vídeo executivo (até 5 min) | *link a ser incluído aqui* |
+| Vídeo executivo (até 5 min) | *https://youtu.be/qeRvVM_Fcgo* |
 
 ## 4. Descrição da base de dados
 
@@ -84,11 +82,6 @@ Arquivo: `data/raw/desafio_nps_fase_1.csv`. São **2.500 pedidos e 19 colunas**,
 ├── src/
 │   ├── nps_utils.py          # caminhos, regra de classificação, cálculo do NPS, estilo dos gráficos
 │   └── diagrama_jornada.py   # gera o diagrama da jornada do cliente
-├── reports/
-│   ├── figures/              # gráficos gerados pelos notebooks
-│   ├── 01_entendimento_negocio_e_target.pdf
-│   ├── apresentacao_nps_preditivo.pptx
-│   └── roteiro_video.md
 ├── models/                   # reservado: o modelo preditivo (desafio opcional) não foi implementado
 ├── requirements.txt
 └── README.md
